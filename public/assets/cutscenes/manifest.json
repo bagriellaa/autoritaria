@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "style": "Expressionist oil impasto",
+  "pending": 0,
+  "notes": "Original resolutions retained without artificial upscaling. Each file is one independent composition.",
+  "assets": [
+    {
+      "scene": 1,
+      "variant": "neutral",
+      "file": "scene_01_neutral.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3756764,
+      "individualComposition": true
+    },
+    {
+      "scene": 2,
+      "variant": "female",
+      "file": "scene_02_female.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3486189,
+      "individualComposition": true
+    },
+    {
+      "scene": 2,
+      "variant": "male",
+      "file": "scene_02_male.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3267195,
+      "individualComposition": true
+    },
+    {
+      "scene": 3,
+      "variant": "neutral",
+      "file": "scene_03_neutral.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3735673,
+      "individualComposition": true
+    },
+    {
+      "scene": 4,
+      "variant": "neutral",
+      "file": "scene_04_neutral.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3197805,
+      "individualComposition": true
+    },
+    {
+      "scene": 5,
+      "variant": "female",
+      "file": "scene_05_female.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3474048,
+      "individualComposition": true
+    },
+    {
+      "scene": 5,
+      "variant": "male",
+      "file": "scene_05_male.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3303551,
+      "individualComposition": true
+    },
+    {
+      "scene": 6,
+      "variant": "female",
+      "file": "scene_06_female.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3714210,
+      "individualComposition": true
+    },
+    {
+      "scene": 6,
+      "variant": "male",
+      "file": "scene_06_male.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3487141,
+      "individualComposition": true
+    },
+    {
+      "scene": 7,
+      "variant": "female",
+      "file": "scene_07_female.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3393523,
+      "individualComposition": true
+    },
+    {
+      "scene": 7,
+      "variant": "male",
+      "file": "scene_07_male.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3261462,
+      "individualComposition": true
+    },
+    {
+      "scene": 8,
+      "variant": "female",
+      "file": "scene_08_female.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3969163,
+      "individualComposition": true
+    },
+    {
+      "scene": 8,
+      "variant": "male",
+      "file": "scene_08_male.png",
+      "status": "generated-and-reviewed",
+      "width": 1671,
+      "height": 941,
+      "bytes": 3638589,
+      "individualComposition": true
+    },
+    {
+      "scene": 9,
+      "variant": "female",
+      "file": "scene_09_female.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3674657,
+      "individualComposition": true
+    },
+    {
+      "scene": 9,
+      "variant": "male",
+      "file": "scene_09_male.png",
+      "status": "generated-and-reviewed",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3381330,
+      "individualComposition": true
+    }
+  ]
+}

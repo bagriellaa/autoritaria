@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "downloaded": "2026-11-04",
+  "repository": "https://github.com/Hidencod/tge-assets",
+  "revision": "ea2f2aa1ca8da0898330c97df8a5489976b051d0",
+  "assets": [
+    {
+      "file": "kenney/blocky-characters-character-a.glb",
+      "bytes": 131728,
+      "sha256": "4D998C9B1B54D76672ADD4B342E8234D55E95DAA6935C1371640B95BF19ABBC6",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/blocky-characters-character-e.glb",
+      "bytes": 126068,
+      "sha256": "55458A58BC9993A6A72231531FF8A29857E102F754931B96475E025205CF4A12",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/blocky-characters-character-f.glb",
+      "bytes": 127440,
+      "sha256": "591C899F81CD1CEFB8133BFC96E36AD25F5013AE71A1D6E68F6ADD0D658F6FCF",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/blocky-characters-character-i.glb",
+      "bytes": 125980,
+      "sha256": "8215012C0E7E4C662A1B7A6DEA007CC879830BB2D949549DFE8B4A6243B76F7E",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/blocky-characters-character-k.glb",
+      "bytes": 128996,
+      "sha256": "54D03755C92B510FCA4083E3A629D9CFBED2B3331D0310193119770F242E2BFC",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/blocky-characters-character-q.glb",
+      "bytes": 127660,
+      "sha256": "3479C7AC00D593AA7C879DA0364E344E87D594E0BA9AE10AE09DE3EC482AEAB3",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-apple.glb",
+      "bytes": 25120,
+      "sha256": "80617EB699D267F4BC377415AFF8E5397DE4184B88D43974501B11BC3B5F33A1",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-bag.glb",
+      "bytes": 17148,
+      "sha256": "9E6DBED700BA195F7B55B4B19C13DD2FFE78A10C3F0092B0081C5FE72A6D6199",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-barrel.glb",
+      "bytes": 37544,
+      "sha256": "EE131F4802A977A1AF2B2EC09503951B9BE225168802BAF92733ED0300096A64",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-bottle-oil.glb",
+      "bytes": 21232,
+      "sha256": "79DFCA092185A696434F560AB626377CCF357CE6073C87F8E256C718D1A9E085",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-can.glb",
+      "bytes": 24444,
+      "sha256": "25B1882FECCD99BA82AD39334F2BDBC05E931D3F91DE173F9B5A855FEC4ECF5C",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-carrot.glb",
+      "bytes": 27108,
+      "sha256": "6FE79D7FE695C035DE72190B23269A151390025175479560F034BBED5E51465C",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-carton.glb",
+      "bytes": 20096,
+      "sha256": "46837F723EE6FCC6C8EC573094C75E3228B67C2C20CD8D3D385781E1F65EE947",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-honey.glb",
+      "bytes": 25628,
+      "sha256": "A22F9046FFA153FB06F971B611489527740B817E739C5EAE44D59EB171771989",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-loaf.glb",
+      "bytes": 20200,
+      "sha256": "233B64E4B24C7AF619554FF59CDA969C9A3AD450E16085F59FDCBC803A63D65C",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-mug.glb",
+      "bytes": 30980,
+      "sha256": "A17F7527A52CBE809D68B715D06A02657B3542E9DB57353A9B9C285C0992FB6D",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/food-kit-pear.glb",
+      "bytes": 26296,
+      "sha256": "06FABBC0E5A9ADEB36B208BE4AB28190C41A4D24C28995500E9DA51EF3269D73",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/furniture-kit-chair.glb",
+      "bytes": 10756,
+      "sha256": "C8A11EEC93E89E31250BA91AFC1B8D56C3BEC7AE86640FD1239F595FF4180883",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/furniture-kit-kitchenfridge.glb",
+      "bytes": 20116,
+      "sha256": "8AF4F4BBB1B5525AD8226E97926A5AF60FA8FB20A3CB74DBDA5328A9D320DBAB",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/furniture-kit-plantsmall1.glb",
+      "bytes": 8224,
+      "sha256": "2B9C022FEB47BE857B2C4FDC29F36522766BA9B70C578C31D7C05D71B4377D15",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/furniture-kit-radio.glb",
+      "bytes": 25020,
+      "sha256": "1BA93D6BA6F049750853B4652B92F286F2898E527695A0705B75CC7615897FED",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "kenney/furniture-kit-televisionvintage.glb",
+      "bytes": 19392,
+      "sha256": "EB144CC8FB1E7F761E3665226E4266C8868679421D21D6548F24D2ABAD7C67CF",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "textures/plaster.jpg",
+      "bytes": 436395,
+      "sha256": "0A316FFD3F953A902325C06AFB5A5863BBF71D13A353F9D85378562ADCA79603",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "textures/tiles.jpg",
+      "bytes": 356257,
+      "sha256": "AC159CA6072E30DD9D5C65E2D6EAE7BB55A7DC9F06E6D141E9119390563511C2",
+      "license": "CC0-1.0"
+    },
+    {
+      "file": "textures/wood.jpg",
+      "bytes": 215573,
+      "sha256": "460DD08D240F4A1F02982415048C3C5C200F385DB212DA18DC7E2DF68BF4D0BE",
+      "license": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+const { app, BrowserWindow } = require('electron');
+const fs = require('node:fs/promises');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const root = path.resolve(__dirname, '..');
+app.setPath('userData', path.join(root, '.preview', 'qa-profile'));
+const errors=[];
+app.on('web-contents-created', (_, contents) => {
+  contents.on('console-message', (_, level, message) => { if(level>=3)errors.push(message); });
+  contents.on('render-process-gone', (_, details) => errors.push(JSON.stringify(details)));
+});
+require('../desktop/main.cjs');
+const delay=ms=>new Promise(r=>setTimeout(r,ms));
+app.whenReady().then(async()=>{
+  try {
+    await delay(3500);
+    const win=BrowserWindow.getAllWindows()[0];win.webContents.setBackgroundThrottling(false);
+    const run=js=>win.webContents.executeJavaScript(js,true);
+    const text=()=>run('document.body.innerText');
+    assert.match(await text(),/Autoritária/);
+    for(let i=0;i<100 && await run("!document.querySelector('#new-game') || document.querySelector('#new-game').disabled");i++)await delay(200);
+    await run("document.querySelector('#new-game').click()");
+    if((await text()).includes('Começar uma nova vida?'))await run("[...document.querySelectorAll('button')].find(b=>b.textContent==='Escolher personagem').click()");
+    await run("document.querySelector('[data-gender=female]').click()");
+    for(let i=0;i<50 && !(await text()).includes('Naquele');i++)await delay(200);
+    assert.match(await text(),/Naquele/);
+    await run("document.dispatchEvent(new KeyboardEvent('keydown',{code:'Enter',bubbles:true}))");
+    await delay(250);
+    assert.match(await text(),/Naquele ano, as ruas começaram a mudar\./);
+    await run("document.dispatchEvent(new KeyboardEvent('keydown',{code:'Enter',bubbles:true}))");
+    for(let i=0;i<50 && !(await text()).includes('Soldados');i++)await delay(200);
+    assert.match(await text(),/Soldados/);
+    await fs.mkdir(path.join(root,'.preview'),{recursive:true});
+    await fs.writeFile(path.join(root,'.preview','prologue.png'),(await win.webContents.capturePage()).toPNG());
+    await run("document.querySelector('[data-action=skip]').click()");
+    await run("[...document.querySelectorAll('button')].find(b=>b.textContent==='Pular e começar o dia').click()");
+    await delay(2500);
+    assert.match(await text(),/PREPARAÇÃO/);
+    await fs.writeFile(path.join(root,'.preview','shop.png'),(await win.webContents.capturePage()).toPNG());
+    await run("document.dispatchEvent(new KeyboardEvent('keydown',{code:'Tab',bubbles:true}))");
+    assert.match(await text(),/Caderno de uma nova vida/);
+    await run("[...document.querySelectorAll('button')].find(b=>b.textContent==='Voltar à loja').click()");
+    await run("document.dispatchEvent(new KeyboardEvent('keydown',{code:'KeyW',bubbles:true}))");
+    await delay(800);
+    await run("document.dispatchEvent(new KeyboardEvent('keyup',{code:'KeyW',bubbles:true}))");
+    await run("document.dispatchEvent(new KeyboardEvent('keydown',{code:'Escape',bubbles:true}))");
+    await delay(500);
+    const saved=JSON.parse(await fs.readFile(path.join(app.getPath('userData'),'campaign-v1.json'),'utf8'));
+    assert.equal(saved.gender,'female');assert.equal(saved.prologue.complete,true);assert.ok(saved.player.z<3.3,'W must move player in 3D');
+    assert.deepEqual(errors,[]);
+    const result={passed:true,checks:['menu','gender','prologue typing and advance','confirmed skip','shop WebGL','journal','WASD movement','desktop file save','renderer console'],player:saved.player};
+    await fs.writeFile(path.join(root,'.preview','smoke-result.json'),JSON.stringify(result,null,2));
+    console.log(JSON.stringify(result));app.exit(0);
+  }catch(e){console.error(e);await fs.mkdir(path.join(root,'.preview'),{recursive:true});await fs.writeFile(path.join(root,'.preview','smoke-result.json'),JSON.stringify({passed:false,error:String(e),errors},null,2));app.exit(1);}
+});

@@ -1,0 +1,786 @@
+[
+  {
+    "file": "blocky-characters-character-a.glb",
+    "bytes": 131728,
+    "dimensions": [
+      1.5999999987232514,
+      2.7,
+      0.8
+    ],
+    "min": [
+      -0.8000001357627868,
+      0,
+      -0.4
+    ],
+    "max": [
+      0.7999998629604645,
+      2.7,
+      0.4
+    ],
+    "animations": [
+      "static",
+      "idle",
+      "walk",
+      "sprint",
+      "sit",
+      "drive",
+      "die",
+      "pick-up",
+      "emote-yes",
+      "emote-no",
+      "holding-right",
+      "holding-left",
+      "holding-both",
+      "holding-right-shoot",
+      "holding-left-shoot",
+      "holding-both-shoot",
+      "attack-melee-right",
+      "attack-melee-left",
+      "attack-kick-right",
+      "attack-kick-left",
+      "interact-right",
+      "interact-left",
+      "wheelchair-sit",
+      "wheelchair-move-forward",
+      "wheelchair-move-back",
+      "wheelchair-move-left",
+      "wheelchair-move-right"
+    ],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "character-a",
+      "root",
+      "leg-left",
+      "leg-right",
+      "torso",
+      "arm-left",
+      "arm-right",
+      "head"
+    ]
+  },
+  {
+    "file": "blocky-characters-character-e.glb",
+    "bytes": 126068,
+    "dimensions": [
+      1.5999999987232514,
+      2.7,
+      0.8
+    ],
+    "min": [
+      -0.7999998927627869,
+      0,
+      -0.4
+    ],
+    "max": [
+      0.8000001059604644,
+      2.7,
+      0.4
+    ],
+    "animations": [
+      "static",
+      "idle",
+      "walk",
+      "sprint",
+      "sit",
+      "drive",
+      "die",
+      "pick-up",
+      "emote-yes",
+      "emote-no",
+      "holding-right",
+      "holding-left",
+      "holding-both",
+      "holding-right-shoot",
+      "holding-left-shoot",
+      "holding-both-shoot",
+      "attack-melee-right",
+      "attack-melee-left",
+      "attack-kick-right",
+      "attack-kick-left",
+      "interact-right",
+      "interact-left",
+      "wheelchair-sit",
+      "wheelchair-move-forward",
+      "wheelchair-move-back",
+      "wheelchair-move-left",
+      "wheelchair-move-right"
+    ],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "character-e",
+      "root",
+      "leg-left",
+      "leg-right",
+      "torso",
+      "arm-left",
+      "arm-right",
+      "head"
+    ]
+  },
+  {
+    "file": "blocky-characters-character-f.glb",
+    "bytes": 127440,
+    "dimensions": [
+      1.6000002417232513,
+      2.7,
+      0.8
+    ],
+    "min": [
+      -0.8000001357627868,
+      0,
+      -0.4
+    ],
+    "max": [
+      0.8000001059604644,
+      2.7,
+      0.4
+    ],
+    "animations": [
+      "static",
+      "idle",
+      "walk",
+      "sprint",
+      "sit",
+      "drive",
+      "die",
+      "pick-up",
+      "emote-yes",
+      "emote-no",
+      "holding-right",
+      "holding-left",
+      "holding-both",
+      "holding-right-shoot",
+      "holding-left-shoot",
+      "holding-both-shoot",
+      "attack-melee-right",
+      "attack-melee-left",
+      "attack-kick-right",
+      "attack-kick-left",
+      "interact-right",
+      "interact-left",
+      "wheelchair-sit",
+      "wheelchair-move-forward",
+      "wheelchair-move-back",
+      "wheelchair-move-left",
+      "wheelchair-move-right"
+    ],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "character-f",
+      "root",
+      "leg-left",
+      "leg-right",
+      "torso",
+      "arm-left",
+      "arm-right",
+      "head"
+    ]
+  },
+  {
+    "file": "blocky-characters-character-i.glb",
+    "bytes": 125980,
+    "dimensions": [
+      1.6000001177232512,
+      2.7,
+      0.8
+    ],
+    "min": [
+      -0.8000001357627868,
+      0,
+      -0.4
+    ],
+    "max": [
+      0.7999999819604644,
+      2.7,
+      0.4
+    ],
+    "animations": [
+      "static",
+      "idle",
+      "walk",
+      "sprint",
+      "sit",
+      "drive",
+      "die",
+      "pick-up",
+      "emote-yes",
+      "emote-no",
+      "holding-right",
+      "holding-left",
+      "holding-both",
+      "holding-right-shoot",
+      "holding-left-shoot",
+      "holding-both-shoot",
+      "attack-melee-right",
+      "attack-melee-left",
+      "attack-kick-right",
+      "attack-kick-left",
+      "interact-right",
+      "interact-left",
+      "wheelchair-sit",
+      "wheelchair-move-forward",
+      "wheelchair-move-back",
+      "wheelchair-move-left",
+      "wheelchair-move-right"
+    ],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "character-i",
+      "root",
+      "leg-left",
+      "leg-right",
+      "torso",
+      "arm-left",
+      "arm-right",
+      "head"
+    ]
+  },
+  {
+    "file": "blocky-characters-character-k.glb",
+    "bytes": 128996,
+    "dimensions": [
+      1.6000001177232512,
+      2.7,
+      0.8
+    ],
+    "min": [
+      -0.8000000117627868,
+      0,
+      -0.4
+    ],
+    "max": [
+      0.8000001059604644,
+      2.7,
+      0.4
+    ],
+    "animations": [
+      "static",
+      "idle",
+      "walk",
+      "sprint",
+      "sit",
+      "drive",
+      "die",
+      "pick-up",
+      "emote-yes",
+      "emote-no",
+      "holding-right",
+      "holding-left",
+      "holding-both",
+      "holding-right-shoot",
+      "holding-left-shoot",
+      "holding-both-shoot",
+      "attack-melee-right",
+      "attack-melee-left",
+      "attack-kick-right",
+      "attack-kick-left",
+      "interact-right",
+      "interact-left",
+      "wheelchair-sit",
+      "wheelchair-move-forward",
+      "wheelchair-move-back",
+      "wheelchair-move-left",
+      "wheelchair-move-right"
+    ],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "character-k",
+      "root",
+      "leg-left",
+      "leg-right",
+      "torso",
+      "arm-left",
+      "arm-right",
+      "head"
+    ]
+  },
+  {
+    "file": "blocky-characters-character-q.glb",
+    "bytes": 127660,
+    "dimensions": [
+      1.6000001177232512,
+      2.7,
+      0.8
+    ],
+    "min": [
+      -0.8000000117627868,
+      0,
+      -0.4
+    ],
+    "max": [
+      0.8000001059604644,
+      2.7,
+      0.4
+    ],
+    "animations": [
+      "static",
+      "idle",
+      "walk",
+      "sprint",
+      "sit",
+      "drive",
+      "die",
+      "pick-up",
+      "emote-yes",
+      "emote-no",
+      "holding-right",
+      "holding-left",
+      "holding-both",
+      "holding-right-shoot",
+      "holding-left-shoot",
+      "holding-both-shoot",
+      "attack-melee-right",
+      "attack-melee-left",
+      "attack-kick-right",
+      "attack-kick-left",
+      "interact-right",
+      "interact-left",
+      "wheelchair-sit",
+      "wheelchair-move-forward",
+      "wheelchair-move-back",
+      "wheelchair-move-left",
+      "wheelchair-move-right"
+    ],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "character-q",
+      "root",
+      "leg-left",
+      "leg-right",
+      "torso",
+      "arm-left",
+      "arm-right",
+      "head"
+    ]
+  },
+  {
+    "file": "food-kit-apple.glb",
+    "bytes": 25120,
+    "dimensions": [
+      0.19629456102848053,
+      0.19075341522693634,
+      0.19629456102848053
+    ],
+    "min": [
+      -0.09814728051424026,
+      0,
+      -0.09814728051424026
+    ],
+    "max": [
+      0.09814728051424026,
+      0.19075341522693634,
+      0.09814728051424026
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "apple"
+    ]
+  },
+  {
+    "file": "food-kit-bag.glb",
+    "bytes": 17148,
+    "dimensions": [
+      0.2201000016927719,
+      0.5997589910030364,
+      0.4117999881505966
+    ],
+    "min": [
+      -0.11005000084638596,
+      0,
+      -0.2058999940752983
+    ],
+    "max": [
+      0.11005000084638596,
+      0.5997589910030364,
+      0.2058999940752983
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "bag"
+    ]
+  },
+  {
+    "file": "food-kit-barrel.glb",
+    "bytes": 37544,
+    "dimensions": [
+      0.7599999904632568,
+      0.6789062023162842,
+      0.6789062023162842
+    ],
+    "min": [
+      -0.3799999952316284,
+      0,
+      -0.3394531011581421
+    ],
+    "max": [
+      0.3799999952316284,
+      0.6789062023162842,
+      0.3394531011581421
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "barrel"
+    ]
+  },
+  {
+    "file": "food-kit-bottle-oil.glb",
+    "bytes": 21232,
+    "dimensions": [
+      0.14000000059604645,
+      0.6218000054359428,
+      0.14000000059604645
+    ],
+    "min": [
+      -0.07000000029802322,
+      7.557510123253422e-16,
+      -0.07000000029802322
+    ],
+    "max": [
+      0.07000000029802322,
+      0.6218000054359436,
+      0.07000000029802322
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "bottle-oil"
+    ]
+  },
+  {
+    "file": "food-kit-can.glb",
+    "bytes": 24444,
+    "dimensions": [
+      0.30000001192092896,
+      0.3199999928474426,
+      0.30000001192092896
+    ],
+    "min": [
+      -0.15000000596046448,
+      0,
+      -0.15000000596046448
+    ],
+    "max": [
+      0.15000000596046448,
+      0.3199999928474426,
+      0.15000000596046448
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "can"
+    ]
+  },
+  {
+    "file": "food-kit-carrot.glb",
+    "bytes": 27108,
+    "dimensions": [
+      0.34314197301864624,
+      0.7163037061691284,
+      0.34314197301864624
+    ],
+    "min": [
+      -0.17157098650932312,
+      0,
+      -0.17157098650932312
+    ],
+    "max": [
+      0.17157098650932312,
+      0.7163037061691284,
+      0.17157098650932312
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "carrot"
+    ]
+  },
+  {
+    "file": "food-kit-carton.glb",
+    "bytes": 20096,
+    "dimensions": [
+      0.23000000417232513,
+      0.5905462503433228,
+      0.23000000417232513
+    ],
+    "min": [
+      -0.11500000208616257,
+      0,
+      -0.11500000208616257
+    ],
+    "max": [
+      0.11500000208616257,
+      0.5905462503433228,
+      0.11500000208616257
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "carton"
+    ]
+  },
+  {
+    "file": "food-kit-honey.glb",
+    "bytes": 25628,
+    "dimensions": [
+      0.32603999972343445,
+      0.3160179853439331,
+      0.32603999972343445
+    ],
+    "min": [
+      -0.16301999986171722,
+      0,
+      -0.16301999986171722
+    ],
+    "max": [
+      0.16301999986171722,
+      0.3160179853439331,
+      0.16301999986171722
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "honey"
+    ]
+  },
+  {
+    "file": "food-kit-loaf.glb",
+    "bytes": 20200,
+    "dimensions": [
+      0.5797440409660339,
+      0.4423206150531769,
+      0.3659040033817291
+    ],
+    "min": [
+      -0.28987202048301697,
+      0,
+      -0.18295200169086456
+    ],
+    "max": [
+      0.28987202048301697,
+      0.4423206150531769,
+      0.18295200169086456
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "loaf"
+    ]
+  },
+  {
+    "file": "food-kit-mug.glb",
+    "bytes": 30980,
+    "dimensions": [
+      0.3436693474650383,
+      0.273360013961792,
+      0.28512001037597656
+    ],
+    "min": [
+      -0.12346058338880539,
+      1.5002518935182916e-18,
+      -0.14256000518798828
+    ],
+    "max": [
+      0.2202087640762329,
+      0.273360013961792,
+      0.14256000518798828
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "mug"
+    ]
+  },
+  {
+    "file": "food-kit-pear.glb",
+    "bytes": 26296,
+    "dimensions": [
+      0.19629456102848053,
+      0.2707533836364746,
+      0.19629456102848053
+    ],
+    "min": [
+      -0.09814728051424026,
+      0,
+      -0.09814728051424026
+    ],
+    "max": [
+      0.09814728051424026,
+      0.2707533836364746,
+      0.09814728051424026
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "pear"
+    ]
+  },
+  {
+    "file": "furniture-kit-chair.glb",
+    "bytes": 10756,
+    "dimensions": [
+      0.2,
+      0.47,
+      0.2
+    ],
+    "min": [
+      0,
+      0,
+      -0.2
+    ],
+    "max": [
+      0.2,
+      0.47,
+      0
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "chair(Clone)"
+    ]
+  },
+  {
+    "file": "furniture-kit-kitchenfridge.glb",
+    "bytes": 20116,
+    "dimensions": [
+      0.43,
+      0.92,
+      0.2919339
+    ],
+    "min": [
+      0,
+      0,
+      -0.2819339
+    ],
+    "max": [
+      0.43,
+      0.92,
+      0.010000000000000002
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "kitchenFridge(Clone)",
+      "doorFreezer",
+      "doorFridge"
+    ]
+  },
+  {
+    "file": "furniture-kit-plantsmall1.glb",
+    "bytes": 8224,
+    "dimensions": [
+      0.09466073414998505,
+      0.14,
+      0.09466073414998505
+    ],
+    "min": [
+      -0.047330367074992524,
+      0,
+      -0.047330367074992524
+    ],
+    "max": [
+      0.047330367074992524,
+      0.14,
+      0.047330367074992524
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "plantSmall1(Clone)"
+    ]
+  },
+  {
+    "file": "furniture-kit-radio.glb",
+    "bytes": 25020,
+    "dimensions": [
+      0.315,
+      0.228191078,
+      0.0975000039
+    ],
+    "min": [
+      0,
+      0,
+      -0.0975000039
+    ],
+    "max": [
+      0.315,
+      0.228191078,
+      0
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "radio(Clone)"
+    ]
+  },
+  {
+    "file": "furniture-kit-televisionvintage.glb",
+    "bytes": 19392,
+    "dimensions": [
+      0.410000026,
+      0.269999981,
+      0.269999981
+    ],
+    "min": [
+      0,
+      0,
+      -0.269999981
+    ],
+    "max": [
+      0.410000026,
+      0.269999981,
+      0
+    ],
+    "animations": [],
+    "skins": 0,
+    "externalImages": [],
+    "textureEmbedded": true,
+    "nodes": [
+      "televisionVintage(Clone)"
+    ]
+  }
+]

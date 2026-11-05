@@ -1,0 +1,49 @@
+{
+  "name": "autoritaria",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Um jogo narrativo de comÃ©rcio, memÃ³ria e sobrevivÃªncia.",
+  "type": "module",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/compile-dialogue.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "tsx --test tests/*.test.ts",
+    "desktop": "npm run build && electron .",
+    "desktop:dev": "electron . --dev",
+    "package:win": "npm run build && electron-builder --win portable --x64",
+    "package:dir": "npm run build && node scripts/package-directory.mjs"
+  },
+  "dependencies": {
+    "inkjs": "^2.4.0",
+    "three": "^0.180.0",
+    "yuka": "^0.7.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/three": "^0.180.0",
+    "@types/yuka": "^0.7.4",
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.12",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3",
+    "vite": "^6.4.1"
+  },
+  "build": {
+    "appId": "com.autoritaria.prototype",
+    "productName": "AutoritÃ¡ria",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "desktop/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable",
+      "artifactName": "Autoritaria-Prototype-${version}.${ext}"
+    }
+  }
+}
